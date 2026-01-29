@@ -1,13 +1,50 @@
-# Understanding and Forecasting Household Electricity Consumption
+# Geospatial Image Classification with Deep Learning  
+## End‑to‑End Satellite Image Analysis using CNNs and Vision Transformers
+
+This project provides an end‑to‑end experience in applying deep learning techniques to **geospatial image classification** using satellite data. It focuses on solving a domain‑specific challenge in remote sensing: **predicting agricultural vs. non‑agricultural land coverage** from high‑resolution imagery.
+
+The work includes robust preprocessing pipelines, deep learning model development, evaluation with rigorous metrics, and experimentation with both **CNNs** and a **CNN–Vision Transformer (ViT) hybrid model**.
+
+---
+
+## Project Objectives
+
+- Build a complete pipeline for satellite image classification.
+- Develop preprocessing workflows for large geospatial datasets.
+- Design and train two fundamentally different architectures:
+  - A standard **Convolutional Neural Network (CNN)**
+  - A **CNN–ViT hybrid model** for enhanced spatial feature extraction
+- Apply augmentation and transfer learning to improve generalization.
+- Evaluate models using:
+  - Accuracy, Precision, Recall, F1 Score  
+  - ROC‑AUC  
+  - Confusion Matrix  
+  - Classification Report  
+- Compare model performance and analyze classification behavior.
+
+---
+
+## Dataset Overview
+
+The dataset consists of:
+
+- **6000 satellite images**
+- **64×64 pixels**
+- **Two land‑use classes**:
+  - **Agricultural**
+  - **Non‑Agricultural**
 
 
-- **Project Concept:**\
-Analysis and forecasting of household electricity consumption using machine learning models based on time series data.
+---
 
-- **Objective:**\
-Development of a predictive model to optimize energy distribution and reduce waste; applying exploratory data analysis (EDA), feature engineering, and model comparison (including Gradient Boosting and LSTM).
+## Project Structure
 
-- **Technologies:**\
-Python, pandas, scikit-learn, XGBoost, statsmodels (ARIMA), LSTM (Keras), Matplotlib, Seaborn, Jupyter, Time Series Resampling
-
-A project presentation is available in the [`doc/Presentation-Household_Electric_Power_Consumption.pdf`](doc/Presentation-Household_Electric_Power_Consumption.pdf) file.
+project/
+│
+├── notebooks/              # Jupyter notebooks for exploration & experiments
+├── src/                    # Python modules for preprocessing & modeling
+├── models/                 # Saved model weights and architectures
+├── data/                   # Raw and processed data (ignored in Git)
+├── README.md               # Project documentation
+├── requirements.txt        # Dependencies for reproducibility
+└── .gitignore              # Exclusions (data, checkpoints, etc.)
