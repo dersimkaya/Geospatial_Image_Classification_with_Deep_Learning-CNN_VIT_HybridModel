@@ -30,21 +30,12 @@ The dataset consists of:
 
 - **6000 satellite images**
 - **64×64 pixels**
-- **Two land‑use classes**:
+- **Two classes**:
   - **Agricultural**
   - **Non‑Agricultural**
 
-
 ---
 
-## Project Structure
+## Technologies
 
-project/
-│
-├── notebooks/              # Jupyter notebooks for exploration & experiments
-├── src/                    # Python modules for preprocessing & modeling
-├── models/                 # Saved model weights and architectures
-├── data/                   # Raw and processed data (ignored in Git)
-├── README.md               # Project documentation
-├── requirements.txt        # Dependencies for reproducibility
-└── .gitignore              # Exclusions (data, checkpoints, etc.)
+Python, TensorFlow / Keras, PyTorch, NumPy, Pandas, Matplotlib, Jupyter Notebook
