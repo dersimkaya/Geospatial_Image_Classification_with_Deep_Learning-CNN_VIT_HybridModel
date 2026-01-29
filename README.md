@@ -38,4 +38,4 @@ The dataset consists of:
 
 ## Technologies
 
-Python, TensorFlow / Keras, PyTorch, NumPy, Pandas, Matplotlib, Jupyter Notebook
+TensorFlow / Keras, PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, Python, Jupyter Notebook
