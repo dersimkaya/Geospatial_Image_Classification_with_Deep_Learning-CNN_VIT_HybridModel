@@ -11,10 +11,10 @@ The work includes robust preprocessing pipelines, deep learning model developmen
 
 - Build a complete pipeline for satellite image classification.
 - Develop preprocessing workflows for large geospatial datasets.
+- Apply augmentation to improve generalization.
 - Design and train two fundamentally different architectures:
   - A standard **Convolutional Neural Network (CNN)**
   - A **CNN–ViT hybrid model** for enhanced spatial feature extraction
-- Apply augmentation and transfer learning to improve generalization.
 - Evaluate models using:
   - Accuracy, Precision, Recall, F1 Score  
   - ROC‑AUC  
