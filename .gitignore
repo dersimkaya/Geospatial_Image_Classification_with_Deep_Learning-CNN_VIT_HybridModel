@@ -28,7 +28,6 @@ doc/*
 *.onnx
 
 
-
 # Ignore Python cache
 __pycache__/
 *.pyc
