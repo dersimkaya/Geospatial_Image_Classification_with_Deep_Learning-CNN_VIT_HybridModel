@@ -11,6 +11,24 @@ doc/*
 *.html
 *.pdf
 
+# Ignore model files
+# TensorFlow / Keras models
+*.keras
+*.h5
+*.pb
+*.tflite
+
+# PyTorch models
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+
+# ONNX models
+*.onnx
+
+
+
 # Ignore Python cache
 __pycache__/
 *.pyc
